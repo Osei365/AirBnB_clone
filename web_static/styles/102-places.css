@@ -162,18 +162,21 @@
     .top h2 {
         width: 100%;
         font-size: 20px;
-        text-align: left;
+    }
+
+    .price_by_night {
+        min-width: 40px;
+        height: 40px;
+        font-size: 15px;
+        line-height: 40px;
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
 
-}
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
 }
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 992px) {
 
 }
